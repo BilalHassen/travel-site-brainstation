@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <title>Travel Site Homepage</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-logo__container">
+          <a href="./index.html">
+            <h1 class="nav__logo">Travel Site</h1>
+          </a>
+        </div>
+        <div class="nav__container">
+          <ul class="nav__list">
+            <li class="nav-list__item">
+              <a class="nav__button nav__button--active" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-list__item">
+              <a class="nav__button" href="./pages/hawaii.html">Hawaii</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav__button" href="./pages/iceland.html">Iceland</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav__button" href="./pages/greece.html">Greece</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero section below -->
+    <section class="hero">
+      <div class="hero__info">
+        <h1 class="hero__header">
+          Travelling Comes With<br />Endless Discoveries
+        </h1>
+        <p class="hero__subheader">
+          Dont let your dreams be just dreams Experience the world by booking a
+          <br />vacation with us now
+        </p>
+        <button class="hero__button hero__button--modifier">Get started</button>
+      </div>
+      <div class="hero__image-container">
+        <img class="hero__image" src="assets/hero.png" alt="plane image" />
+      </div>
+    </section>
+
+    <!-- recommendations section below -->
+    <h1 class="recommendations-header">Recommendations</h1>
+    <section class="recommendations">
+      <a class="recommendations__card-link" href="/pages/hawaii.html">
+        <div class="recommendations__card recommendations__card--hawaii">
+          <p class="recommendations__card-text">Hawaii</p>
+        </div>
+      </a>
+
+      <a class="recommendations__card-link" href="/pages/iceland.html">
+        <div class="recommendations__card recommendations__card--iceland">
+          <p class="recommendations__card-text">Iceland</p>
+        </div>
+      </a>
+
+      <a class="recommendations__card-link" href="/pages/greece.html">
+        <div class="recommendations__card recommendations__card--greece">
+          <p class="recommendations__card-text">Greece</p>
+        </div>
+      </a>
+    </section>
+
+    <!-- footer section below -->
+
+    <footer class="footer-container">
+      <section class="footer__card">
+        <h3 class="footer__title">Contact</h3>
+        <p class="footer__para">Email</p>
+        <a class="footer__email" href="mailto: info@travelsite.com"
+          >info@travelsite.com</a
+        >
+      </section>
+
+      <section class="footer__card footer__card--modifier">
+        <h3 class="footer__title">Hours</h3>
+        <div class="footer__hours-wrapper">
+          <div class="footer__hours">
+            <p class="footer__days">Monday - Friday</p>
+            <p class="footer__hours">9:00 AM - 5:00 PM</p>
+          </div>
+
+          <div class="footer__hours">
+            <p class="footer__days">Saturday</p>
+            <p class="footer__hours">10:00 AM - 4:00 PM</p>
+          </div>
+
+          <div class="footer__hours">
+            <p class="footer__days">Sunday</p>
+            <p class="footer__hours">Closed</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer__card">
+        <h3 class="footer__title">Social</h3>
+        <br />
+        <div class="footer__icon-wrapper">
+          <a href="https://www.instagram.com/">
+            <img class="footer__icon" src="/assets/icon-instagram.png"
+          /></a>
+          <a href="https://www.facebook.com/">
+            <img class="footer__icon" src="/assets/icon-facebook.png"
+          /></a>
+          <a href="https://twitter.com/">
+            <img class="footer__icon" src="/assets/icon-twitter.png"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
