@@ -128,3 +128,7 @@ a {
 .footer__email {
   text-decoration: none;
 }
+
+.footer__days {
+  text-transform: uppercase;
+}
