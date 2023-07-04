@@ -48,7 +48,7 @@
 .recommendations {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.4rem;
   height: 450px;
 }
 
@@ -63,12 +63,14 @@
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .recommendations__card--hawaii {
   background-image: url(/assets/hawaii.jpg);
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 
 .recommendations__card--iceland {
