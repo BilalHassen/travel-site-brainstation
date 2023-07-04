@@ -68,10 +68,7 @@ a {
   margin-right: 1rem;
 }
 
-.nav__button--active,
-.nav__button--activeh,
-.nav__button--activeg,
-.nav__button--activei {
+.nav__button--active {
   padding-bottom: 0.5rem;
   border-bottom: solid 3px var(--color-2);
 }
@@ -125,4 +122,8 @@ a {
 .footer__card--modifier {
   margin-left: 3rem;
   margin-right: 4rem;
+}
+
+.footer__email {
+  text-decoration: none;
 }
